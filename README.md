@@ -12,7 +12,16 @@ S2Dedup follows a client-server architecture.
 
 S2Dedup's server and client implementation is available at [s2dedup-spdk-server](https://github.com/mmm97/s2dedup-spdk-server.git) and [s2dedup-spdk-client](https://github.com/mmm97/s2dedup-spdk-client.git). Regarding the trusted enclave implementation, its code is available at [s2dedup-sgx](https://github.com/mmm97/s2dedup-sgx.git).
 
-Please follow the directions presented at each of the repositories to ensure S2Dedup's correct execution.
+A simple deployment can be built with 2 machines, one running the client and another the storage server.
+
+In the client's machine:
+  - Install and deploy [s2dedup-spdk-client](https://github.com/mmm97/s2dedup-spdk-client.git)
+  
+In the server's machine:
+  - If using secure schemes, install [s2dedup-sgx](https://github.com/mmm97/s2dedup-sgx.git)
+  - Install and deploy [s2dedup-spdk-server](https://github.com/mmm97/s2dedup-spdk-server.git)
+
+Please follow the instructions presented at each of the repositories to ensure S2Dedup's correct execution.
 
 ## Contacts
 For more information please contact: 
