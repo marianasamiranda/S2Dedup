@@ -1,0 +1,3 @@
+[submodule "s2dedup-spdk-server"]
+	path = s2dedup-spdk-server
+	url = https://github.com/mmm97/s2dedup-spdk-server
