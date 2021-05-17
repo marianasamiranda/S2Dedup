@@ -4,3 +4,6 @@
 [submodule "s2dedup-spdk-client"]
 	path = s2dedup-spdk-client
 	url = https://github.com/mmm97/s2dedup-spdk-client
+[submodule "s2dedup-sgx"]
+	path = s2dedup-sgx
+	url = https://github.com/mmm97/s2dedup-sgx
