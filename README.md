@@ -5,7 +5,7 @@ The proposed solution leverages Intel Software Guard Extensions to enable cross-
 
 For more information regarding S2Dedup you may read the paper published in SYSTOR'21:
 
-- "S2Dedup: SGX-enabled Secure Deduplication"
+-  Mariana Miranda, Tânia Esteves, Bernardo Portela, and João Paulo. 2021. [S2Dedup: SGX-enabled Secure Deduplication](https://dl.acm.org/doi/abs/10.1145/3456727.3463773). In Proceedings of the 14th ACM International Conference on Systems and Storage (SYSTOR '21). Association for Computing Machinery, New York, NY, USA, Article 14, 1–12. 
 
 ## Quick Start
 S2Dedup follows a client-server architecture.
